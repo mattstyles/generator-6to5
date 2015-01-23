@@ -1,0 +1,37 @@
+{
+  "name": "generator-6to5",
+  "version": "0.0.0",
+  "description": "Yeoman generator scaffolding a 6to5 transpiled build",
+  "license": "WTFPL",
+  "main": "app/index.js",
+  "repository": "mattstyles/generator-6to5",
+  "author": {
+    "name": "Matt Styles",
+    "email": "matt@veryfizzyjelly.com",
+    "url": "https://github.com/mattstyles"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "6to5"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
