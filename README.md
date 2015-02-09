@@ -22,6 +22,12 @@ yo 6to5
 
 This generator is pretty skinny on functionality but it’ll scaffold you out a good and clean starting point for exploring 6to5.
 
+## Browserify
+
+_A note on browserify_
+
+You might be wondering why the template package specifies `browserify 7.0.x` rather than the latest, well, there is a bug regarding `watchify` that results in builds exponentially growing in size. The fix is simply to use `7.0.x` and not worry about it, although, if you’re not interested in watching files then go ahead and use the latest.
+
 ## Yeoman
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
