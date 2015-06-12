@@ -14,7 +14,7 @@
         "object-assign": "^2.0.0"
     },
     "devDependencies": {
-        "6to5ify": "^4.1.1",
+        "babelify": "^6.1.2",
         "browserify": "^7.0.1",
         "del": "^1.1.1",
         "gulp": "^3.8.10",
