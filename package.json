@@ -21,7 +21,10 @@
   ],
   "keywords": [
     "yeoman-generator",
-    "6to5"
+    "6to5",
+    "babel",
+    "es2015",
+    "yeoman"
   ],
   "dependencies": {
     "yeoman-generator": "^0.18.0",
