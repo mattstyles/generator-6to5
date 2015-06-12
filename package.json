@@ -1,6 +1,6 @@
 {
   "name": "generator-6to5",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Yeoman generator scaffolding a 6to5 transpiled build",
   "license": "WTFPL",
   "main": "app/index.js",
